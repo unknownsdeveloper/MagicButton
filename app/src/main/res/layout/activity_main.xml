@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ankit.developer.unknowns.magicbutton.MainActivity">
+
+    <br.com.bloder.magic.view.MagicButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/magicButton"
+        app:magic_button_size="50dp"
+        app:button_icon="@mipmap/ic_launcher"
+        app:button_icon_width="25dp"
+        app:button_icon_height="25dp"
+        app:hide_text="Github"
+        app:hide_text_size="8sp"
+        app:hide_text_color="@android:color/white"
+        app:icon_button_color="#666666"
+        app:expandable_area_color="#000000"
+        />
+    <br.com.bloder.magic.view.MagicButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/magicButton1"
+        app:magic_button_size="50dp"
+        app:button_icon="@mipmap/ic_launcher"
+        app:button_icon_width="25dp"
+        app:button_icon_height="25dp"
+        app:hide_text="FaceBook"
+        app:hide_text_size="8sp"
+        app:hide_text_color="@android:color/white"
+        app:icon_button_color="#2e5cb8"
+        app:expandable_area_color="#193366"
+        android:layout_marginTop="60dp"
+        />
+</RelativeLayout>
